@@ -54,8 +54,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="When_Resolving_Strategy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="When_Resolving_Strategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
