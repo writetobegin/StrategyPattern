@@ -14,7 +14,7 @@ namespace UnitTestStrategyPattern
         [TestFixtureSetUp]
         public void Setup()
         {
-
+             
             var strategies = new List<IToReachOffice>
                              {
                                  new ByBus(),
