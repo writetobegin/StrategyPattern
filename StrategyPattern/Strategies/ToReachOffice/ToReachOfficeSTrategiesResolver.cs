@@ -8,7 +8,7 @@ using StrategyPattern.Interface.Strategies;
 
 namespace StrategyPattern.Strategies.ToReachOffice
 {
-    class ToReachOfficeStrategiesResolver : IStrategyResolver<IToReachOffice>
+    public class ToReachOfficeStrategiesResolver : IStrategyResolver<IToReachOffice>
     {
         public IEnumerable<IToReachOffice> Strategies { get; set; }
 

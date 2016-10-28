@@ -7,7 +7,7 @@ using StrategyPattern.Enums;
 
 namespace StrategyPattern.Interface.Strategies
 {
-    interface IToReachOffice
+    public interface IToReachOffice
     {
         TravelBy TravelBy { get; }
         void Duration();
